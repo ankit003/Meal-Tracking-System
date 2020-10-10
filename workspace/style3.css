@@ -1,0 +1,260 @@
+/*Student_profile's css file*/
+/*------------------------- Layout styles ------------------------*/
+body {
+	margin:0;
+	background-color:#e6e7e8;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a {
+	outline:none;
+}
+/*a img {
+	border:0;
+	display:block;
+}*/
+.page {
+	width:960px;
+	margin:0 auto;
+}
+p a:hover {
+	color:#ff8b00!important;
+}
+/*------------------------- Header ------------------------*/
+.header {
+	background:url(images/bg-header.jpg) no-repeat;
+	height:auto;
+	overflow:hidden;
+	
+}
+.header a#logo {
+	display:inline-block;
+	float:left;
+	height:62px;
+	margin:0;
+	width:258px;
+}
+.header ul.navigation {
+	height:auto;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+}
+.header ul.navigation li {
+	background:url(images/bg-nav.jpg) no-repeat left top;
+	float:left;
+}
+.header ul.navigation li.selected {
+	background:url(images/bg-nav-selected2.jpg) repeat-x;
+}
+.header ul.navigation li a {
+	color:#f0f0f0;
+	display:block;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:15px;
+	height:68px;
+	letter-spacing:.075em;
+	line-height:62px;
+	padding:0 22px;
+	text-decoration:none;
+}
+.header ul.navigation li.selected a {
+	background:url(images/bg-nav-selected.png) no-repeat center 63px;
+	color:#fff;
+}
+.header ul.navigation li a:hover {
+	color:#fff;
+}
+/*------------------------- Body Sidebar Content ------------------------*/
+.body .home .content {
+	float:left;
+	margin:0 20px 0 0;
+	width:610px;
+}
+.body .home .content .featured div {
+	background:url(images/girl.jpg) no-repeat;
+	height:390px;
+	width:610px;
+}
+
+.body .home .sidebar {
+	background-color:#fff;
+	border:1px solid #dfe1e4;
+	border-radius:10px;
+	float:right;
+	width:327px;
+}
+
+.body .home, .body .about {
+	overflow:hidden;
+}
+
+/*------------------------- Footer ------------------------*/
+.footer {
+	overflow:hidden;
+}
+.footer .about {
+	float:left;
+	margin:0 20px 0 0;
+	min-height:140px;
+	padding:40px 0 0;
+	width:465px;
+}
+.footer .about div {
+	background-color:#fff;
+	border:1px solid #dfe1e4;
+	border-radius:10px;
+	overflow:hidden;
+	padding:19px 20px 19px 19px;
+}
+.footer .about div a {
+	border:1px solid #d3d3d3;
+	display:inline-block;
+	float:left;
+	margin:0 15px 0 0;
+}
+.footer .about div p {
+	color:#6b7073;
+	float:left;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:23px;
+	margin:-6px 0 0;
+	width:189px;
+}
+.footer .about div a.more {
+	color: #6B7073;
+	display: inline;
+	font-size: 14px;
+	text-decoration: none;
+	border:0;
+	line-height:24px;
+}
+.footer .about div a.more:hover {
+	color:#ff8b00;
+}
+.footer .about div p a {
+	border:0;
+	color:#6b7073;
+	float: none;
+	margin: 0;
+}
+.footer .contact {
+	float:left;
+	margin:0;
+	min-height:140px;
+	padding:40px 0 0;
+	width:475px;
+}
+.footer .contact ul {
+	background-color:#fff;
+	border:1px solid #dfe1e4;
+	border-radius:10px;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0 0 3px;
+}
+.footer .contact ul li:first-child {
+	border:0;
+}
+.footer .contact ul li {
+	border-top:1px solid #dfe1e4;
+	overflow:hidden;
+	padding:13px 19px 0;
+}
+.footer .contact ul li span {
+	color:#6b7073;
+	float:left;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:23px;
+	margin:0;
+}
+.footer .contact ul li p {
+	color:#6b7073;
+	float:left;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:23px;
+	margin:0 0 14px 4px;
+	width:355px;
+}
+.footer .contact ul li p a {
+	color:#6b7073;
+}
+.footer .connect {
+	clear:both;
+	float:left;
+	margin:0 0 45px;
+	overflow:hidden;
+	padding:34px 0 0;
+}
+.footer .connect a#twitter {
+	background:url(../images/icons.png) no-repeat;
+	color:#8d8d8d;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:21px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0 28px 0 0;
+	padding:0 0 0 35px;
+	text-decoration:none;
+}
+.footer .connect a#twitter:hover {
+	background:url(../images/icons.png) no-repeat 0 -22px;
+}
+.footer .connect a#facebook {
+	background:url(../images/icons.png) no-repeat 0 -44px;
+	color:#8d8d8d;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:21px;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:0 0 0 17px;
+	text-decoration:none;
+	margin:0 28px 0 0;
+}
+.footer .connect a#facebook:hover {
+	background:url(../images/icons.png) no-repeat 0 -66px;
+}
+.footer .connect a#googleplus {
+	background:url(../images/icons.png) no-repeat 0 -88px;
+	color:#8d8d8d;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:21px;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:0 0 0 26px;
+	text-decoration:none;
+	margin:0 28px 0 0;
+}
+.footer .connect a#googleplus:hover {
+	background:url(../images/icons.png) no-repeat 0 -110px;
+}
+.footer p.footnote {
+	color:#8d8d8d;
+	float:right;
+	font-size:12px;
+	letter-spacing:.05em;
+	line-height:20px;
+	margin:36px 0 0;
+}
+.footer .about h3, .footer .contact h3 {
+	color:#ff8b00;
+	font-size:16px;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:24px;
+	margin:0 0 4px;
+	text-transform:uppercase;
+}
+.footer .about div p a:hover, .footer .contact ul li p a:hover {
+	color:#ec7500;
+}

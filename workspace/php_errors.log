@@ -1,0 +1,8 @@
+[25-Oct-2017 16:29:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/prince/student_home.php on line 15
+[25-Oct-2017 16:29:51 UTC] PHP Stack trace:
+[25-Oct-2017 16:29:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/prince/student_home.php:0
+[25-Oct-2017 16:29:51 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/prince/student_home.php:15
+[25-Oct-2017 16:30:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/prince/student_home.php on line 15
+[25-Oct-2017 16:30:04 UTC] PHP Stack trace:
+[25-Oct-2017 16:30:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/prince/student_home.php:0
+[25-Oct-2017 16:30:04 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/prince/student_home.php:15
